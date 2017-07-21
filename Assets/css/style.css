@@ -1,0 +1,81 @@
+body {
+	width: 960px;
+}
+
+h1 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+h2 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+h3 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+p {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 1.5em;
+}
+
+#name {
+	float: left;
+	background-color: #4aaaa5;
+	padding: 20px;
+	margin-left: 80px;
+}
+
+#links {
+	float: right;
+	margin-top: 10px;
+	margin-right: 100px;
+}
+
+#about {
+	float: left;
+	padding: 10px;
+}
+
+#portfolio {
+	float: left;
+	padding: 10px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+}
+
+#contact {
+	float: left;
+	padding: 10px;
+}
+
+#heading {
+	padding-bottom: 10px;
+	/*position: absolute;*/
+}
+#container {
+	clear: both;
+}
+
+#aboutmeheading {
+	border-bottom: 1px solid #dddddd;
+}
+#aboutme {
+	border-top: 1px solid #dddddd;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	width: 50%;
+	margin-left: 80px;
+
+	
+
+}
+
+#biopic {
+	float: left;
+}
+
+p {
+	line-height: 2em;
+}
+
