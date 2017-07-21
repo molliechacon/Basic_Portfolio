@@ -1,13 +1,18 @@
 body {
-	width: 960px;
+	/*width: 960px;*/
 }
 
 h1 {
 	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 h2 {
 	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 16px;
+	color: #4aaaa5;
+	font-weight: bold;
 }
 
 h3 {
@@ -22,6 +27,7 @@ p {
 #name {
 	float: left;
 	background-color: #4aaaa5;
+	color: white;
 	padding: 20px;
 	margin-left: 80px;
 }
@@ -29,8 +35,10 @@ p {
 #links {
 	float: right;
 	margin-top: 10px;
-	margin-right: 100px;
+	margin-right: 250px;
 }
+
+/*list items? How to make these links?*/
 
 #about {
 	float: left;
@@ -49,33 +57,70 @@ p {
 	padding: 10px;
 }
 
-#heading {
-	padding-bottom: 10px;
-	/*position: absolute;*/
+#header {
+	height: 64px;
+	border-bottom: 1px solid #dddddd;
+
 }
 #container {
 	clear: both;
+	margin-top: 20px;
+	background-color: green;
+	/*background-image: url("topography.png");*/
+	/*insert background from subtlepatterns*/
+
 }
 
-#aboutmeheading {
-	border-bottom: 1px solid #dddddd;
-}
 #aboutme {
+	float: left;
 	border-top: 1px solid #dddddd;
 	padding: 20px;
 	border: 1px solid #dddddd;
-	width: 50%;
+	width: 650px;
 	margin-left: 80px;
 
 	
 
 }
 
+#aboutmeheading {
+	border-bottom: 1px solid #dddddd;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	color: #4aaaa5;
+}
+
+
 #biopic {
 	float: left;
+	margin-right: 20px;
 }
 
 p {
 	line-height: 2em;
 }
 
+#connect {
+	float: left;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	width: 270px;
+	margin-left: 40px;
+}
+
+#connectwithme {
+	border-bottom: 1px solid #dddddd;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+#footer {
+	clear: both;
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border-top: 5px solid #4aaaa5;
+	/*sticky footer*/
+}
