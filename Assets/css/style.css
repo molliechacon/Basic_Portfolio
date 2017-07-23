@@ -49,13 +49,13 @@ header {
 }
 
 #navbar {
-	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	float: right;
+	float: left;
 	margin-top: 15px;
-	margin-right: 280px;
+	margin-left: 590px;
 }
 
 a {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 12px;
 	text-decoration: none;	
 }
@@ -121,6 +121,7 @@ main {
 #biopic {
 	float: left;
 	margin-right: 20px;
+	border: 1px solid #dddddd;
 }
 
 #hangman {
@@ -190,7 +191,28 @@ main {
 		   	padding-bottom: 20px;
 		}
 
-/*insert other body pictures*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 8px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	width: 15%;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#message {
+	height: 175px;
+}
 
 aside {
 	width: 228px;
@@ -213,10 +235,12 @@ aside {
 }
 
 footer {
+	position: absolute;
 	clear: both;
 	overflow: auto;
-	height: 80px;
-	/*specified height to use a sticky footer from https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/; needs reinspection*/
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	border-top: 5px solid #4aaaa5;
 	text-align: center;
 	background-color: #666666;
@@ -227,18 +251,6 @@ footer {
 	font-size: 10px;
 	color: white;
 }
-
-/*used for sticky footer*/
-/*.site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}*/
-
-/*used for sticky footer*/
-/*.site_content {
-  flex: 1;
-}*/
 
 .clearfix::after {
 	content: "";

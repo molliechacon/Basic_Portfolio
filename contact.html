@@ -8,10 +8,10 @@
 </head>
 
 
-<!-- used for sticky footer -->
+<!-- tried to use class "site" for sticky footer. No luck... -->
 <body class="site">
 
-	<!-- used for sticky footer -->
+	<!-- tried to use class "site_content" for sticky footer. No luck... -->
 	<div class="site_content">
 
 		<!-- HEADER -->
@@ -22,13 +22,12 @@
 			</div>
 
 			<div id="navbar">
-			<!-- link the following to other pages once completed. -->
 				<ul>
-		  			<li id="about"><a href="#">About</a></li>
+		  			<li id="about"><a href="index.html">About</a></li>
 
-		  			<li id="portfolio"><a href="#">Portfolio</a></li>
+		  			<li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
 
-		 		 	<li id="contact"><a href="#">Contact</a></li>
+		 		 	<li id="contact"><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
 		</header>
@@ -40,16 +39,22 @@
 			<main>
 				<h1 id="bodyheading">Contact</h1>
 
-				<!-- add contact box here -->
+				<form>
+				  <label for="name"><p>Name</p></label>
+				  <input type="text" id="fname" name="fname" placeholder="John Smith">
+				</form>
 
+				<form>
+				  <label for="email"><p>Email</p></label>
+				  <input type="text" id="email" name="email" placeholder="example@gmail.com">
+				</form>
 
+				<form>
+				  <label for="message"><p>Message</p></label>
+				  <input type="text" id="message" name="message">
 
-
-
-
-
-
-				
+				   <input type="submit" value="Submit">
+				</form>
 			</main>
 
 			<aside>
